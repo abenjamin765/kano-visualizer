@@ -1,0 +1,80 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2.5rem;
+    background: #C2C3CC;
+}
+
+#app {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 5px 0 rgba(48, 29, 51, 0.1), 0 20px 30px 0 rgba(48, 29, 51, 0.1);
+}
+
+.uploader {
+    background: #FAFBFF;
+    border-bottom: solid 1px #E1E2E6;
+    text-align: center;
+
+}
+
+#uploadFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.button {
+    padding: 0.5em 1.5em;
+    background: #2948FF;
+    color: white;
+    display: inline-block;
+    border-radius: 0.25rem;
+    margin: 2.5rem;
+    box-shadow: 0 0 5px 0 rgba(48, 29, 51, 0.1), 0 10px 20px 0 rgba(48, 29, 51, 0.1);
+}
+
+.button:hover {
+    background: #3654FF;
+}
+
+.button:active {
+    background: #2542E6;
+}
+
+.stage {
+    padding: 1rem;
+    position: relative;
+    height: 30rem;
+
+}
+
+.results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    font-size: 0.75rem;
+    height: calc(1.5em + 2px);
+    width: calc(1.5em + 2px);
+    left: calc(50% - 1.5em + 2px);
+    top: calc(50% - 1.5em + 2px);
+}
+
+.item {
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center;
+    width: 1.5em;
+    border: solid 1px #E1E2E6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

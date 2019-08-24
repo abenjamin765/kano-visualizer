@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kano Viz</title>
+    <!-- Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <div class="uploader">
+        <label class="button hero" for="uploadFile"
+          >Select a file to upload</label
+        >
+        <input type="file" id="uploadFile" accept=".xlsx, .xls, .csv" />
+      </div>
+      <section class="stage">
+        <ul class="results">
+          <li style="top: -30px; left: 20px;" class="item">1</li>
+          <li style="top: -30px; left: 20px;" class="item">2</li>
+          <li style="top: -50px; left: -20px;" class="item">3</li>
+          <li style="top: -10px; left: 80px;" class="item">4</li>
+          <li style="top: 30px; left: -70px;" class="item">5</li>
+          <li style="top: 30px; left: -20px;" class="item">6</li>
+          <li style="top: 60px; left: 20px;" class="item">7</li>
+          <li style="top: 10px; left: 60px;" class="item">8</li>
+          <li style="top: -20px; left: -20px;" class="item">9</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
